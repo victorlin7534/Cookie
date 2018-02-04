@@ -25,13 +25,14 @@ public class MatrixTester{
 			MatrixFinder.find(matrix,target);
 			list.add(System.nanoTime()-before);
 		}
+		list.remove(0);
 	}
 
 	public static void write(){	
 		list = new ArrayList();		
 		addTime(35);
 		//System.out.println(list);
-		System.out.println(size + ": " + getAverageTime(list)  + "\n");
+		System.out.println(size + "," + getAverageTime(list)  + "\n");
 	}
 
 	public static double getAverageTime(ArrayList x){
@@ -42,6 +43,7 @@ public class MatrixTester{
 	}
 
 	public static void main(String []args){
+		System.out.println("size,time(nanoSeconds)");
 		for(size =1;size<1001;size++)
 			write();
 	}
