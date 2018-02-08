@@ -1,6 +1,5 @@
 # Cookie
-Members: Kevin Lin, Victor Lin, Kayli Matsuyoshi
-                       Rooster: Team 00
+Members: Kevin Lin, Victor Lin, Kayli Matsuyoshi 	Rooster: Team 00
 
 # Hypothesis
 If we increase the size of the matrix used in our search method, then the run time for matrix search will increase linearly.
