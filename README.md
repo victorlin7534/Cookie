@@ -15,4 +15,4 @@ The experiment was run with one gigabyte of RAM allocated for it, and it runs th
 ![dataGraph](chart.png)
 
 ## Conclusion
-Based on the data, the method first starts with non linear time for small matrixes. The data tends to pivot around a line as the size of the matrices increase. Therefore, we can conclude that the method's runtime becomes linear.
+Based on the data, the method first starts with non linear time for small matrixes. The data tends to pivot around a line as the size of the matrices increase. Therefore, we can conclude that the method's runtime becomes linear. However, we cannot explain why the data seems to pivot around a line, but regardless, the runtime is still linear. Possible causes of these discrepancies are background programs, speed/computational capacity of computers, and constantly using the command "cat" to check the progress of the program. 
